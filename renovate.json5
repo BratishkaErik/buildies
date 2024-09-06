@@ -1,0 +1,10 @@
+// SPDX-FileCopyrightText: 2024 Eric Joldasov
+//
+// SPDX-License-Identifier: 0BSD
+
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ]
+}

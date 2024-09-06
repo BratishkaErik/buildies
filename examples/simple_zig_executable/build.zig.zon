@@ -1,0 +1,22 @@
+// SPDX-FileCopyrightText: 2025 Eric Joldasov
+//
+// SPDX-License-Identifier: 0BSD
+
+.{
+    .name = .simple_zig_executable,
+    .version = "0.1.0",
+    .fingerprint = 0x1ce25114_67961712,
+
+    .minimum_zig_version = "0.14.0",
+    .dependencies = .{
+        .buildies = .{
+            .path = "../../",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src/",
+    },
+}

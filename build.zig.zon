@@ -1,0 +1,21 @@
+// SPDX-FileCopyrightText: 2024 Eric Joldasov
+//
+// SPDX-License-Identifier: 0BSD
+
+.{
+    .fingerprint = 0x18416c62_e04661c2,
+    .minimum_zig_version = "0.14.0",
+
+    .name = .buildies,
+    .version = "0.1.0",
+    .summary = "Easy build‑and‑packaging defaults for build.zig",
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "build/",
+        "LICENSES/0BSD.txt",
+        // "LICENSES/CC0-1.0.txt" not added here because all files
+        // under this license are not included here (README and CI).
+    },
+}
